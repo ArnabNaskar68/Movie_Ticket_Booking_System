@@ -81,7 +81,6 @@ public class MovieTicketBooking {
 
         BookingSystem system = new BookingSystem();
 
-        // Add some movies
         system.addMovie(new Movie("Avengers: Endgame", "6:00 PM", 50));
         system.addMovie(new Movie("Inception", "9:00 PM", 40));
         system.addMovie(new Movie("Interstellar", "3:00 PM", 30));
